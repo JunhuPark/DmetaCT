@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-int bitDivide(int64_t *a, int64_ b) {
+int bitDivide(int64_t *a, int64_t b) {
     int res = 0;
     while(*a - b >= 0){
         int bitShifter = 0;
