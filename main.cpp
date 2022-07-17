@@ -28,7 +28,6 @@ class Solution {
             cout << "Divide by 0 error";
             return 0;
         }
-        // Handle Mersenne number division 
         // Handle positive or negative 
         if (numerator < 0 ^ denominator < 0) {
             result += '-';
@@ -73,6 +72,7 @@ class Solution {
                 result += temp;
                 return result;
             }
+            result += temp;
             result += '"';
                 return result;
             
